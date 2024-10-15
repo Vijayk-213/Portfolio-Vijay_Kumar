@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Vijay Kumar - Gen AI Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/main.css" />
+
+		<style>
+			.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.word-cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    pointer-events: none; /* So the links/images are clickable */
+}
+
+.word-cloud .word {
+    position: absolute;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds shadow for better readability */
+    opacity: 0.7; /* Optional: Adjust opacity */
+}
+
+/* Position the words at random locations on the image */
+.word:nth-child(1) { top: 10%; left: 5%; }
+.word:nth-child(2) { top: 5%; left: 40%; }
+.word:nth-child(3) { top: 80%; left: 5%; }
+.word:nth-child(4) { top: 38%; left: 70%; }
+.word:nth-child(5) { top: 70%; left: 50%; }
+.word:nth-child(6) { top: 15%; left: 80%; }
+.word:nth-child(7) { top: 85%; left: 30%; }
+.word:nth-child(8) { top: 65%; left: 85%; }
+.word:nth-child(9) { top: 80%; left: 60%; }
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="header">
+
+			<div class="top">
+
+				<!-- Logo -->
+				<div id="logo">
+					<span class="image avatar48"><img src="static/images/vk.jpg" alt="" /></span>
+					<h1 id="title">Vijay Kumar</h1>
+					<p>Gen AI Developer</p>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+						<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+						<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+						<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<div class="bottom">
+
+				<!-- Social Icons -->
+				<ul class="icons">
+					<li><a href="https://twitter.com" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://linkedin.com/in/vijay-kumar-933186181" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/Vijayk-213" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:vijaykumar@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover" style="color: black;
+    background: #e9f0fe;">
+				<div class="container">
+
+					<header>
+						<h2 class="alt" style="font-weight: 600;">Hi! I'm Vijay Kumar, </h2><br><br>
+						<h4>Gen AI Developer with 3+ years of experience. I specialize in building AI-powered applications and conversational systems using state-of-the-art technologies.</h4><br>
+						<p>I bring expertise in Retrieval-Augmented Generation (RAG), Conversational AI, Generative AI, Natural Language Processing, Machine Learning, Python Flask, Google Cloud platform(GCP).</p> <br>
+					</header>
+
+					<footer>
+						<a href="#portfolio" class="button scrolly">See My Work</a>
+					</footer>
+
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section id="portfolio" class="two">
+				<div class="container">
+
+					<header>
+						<h2>Portfolio</h2>
+					</header>
+
+					<p>Here are some of the projects I’ve worked on, showcasing my skills in AI, machine learning, and software development.</p>
+
+					<div class="row">
+						
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a href="https://github.com/Vijayk-213/Legal-Assist-Chatbot" class="image fit"><img src="static/images/legal1.png" alt="" /></a>
+								<header>
+									<h3>Legal Chatbot</h3>
+									<p>Built a multi-lingual Legal chatbot using Dialogflow CX and NLP technologies, enabling seamless communication in various languages for legal assistance.</p>
+								</header>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a href="https://github.com/Vijayk-213/Emotion-recognition-from-facial-expressions" style="border: 2px solid rgb(191, 190, 190);" class="image fit"><img src="static/images/face.png" alt="" /></a>
+								<header>
+									<h3>Emotion Recognition
+									</h3>
+									<p>This Emotion Recognition Application is a web-based tool that allows users to upload static/images or capture photos using their device's camera and analyze the emotions displayed in the faces detected. </p>
+								</header>
+							</article>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a href="https://github.com/Vijayk-213/AdvanceRag-" class="image fit"><img src="static/images/nvdia4.jpg" alt="" /></a>
+								
+								<header>
+									<h3>Advanced RAG Model</h3>
+									<p>Developed a Retrieval-Augmented Generation model to dynamically generate content by integrating retrieval-based data into the generative process.</p>
+								</header>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a href="https://github.com/Vijayk-213/Text-summarization-application" class="image fit"><img src="static/images/sum.png" alt="" /></a>
+								<header>
+									<h3>Text Summarization</h3>
+									<p>This Text Summarization Application is a web-based tool that allows users to input text and receive a concise summary.</p>
+								</header>
+							</article>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- About Me -->
+			<section id="about" class="three">
+				<div class="container">
+
+					<header>
+						<h2>About Me</h2>
+					</header>
+
+					<div class="image-container">
+						<a href="#" class="image featured">
+							<img src="static/images/about.jpg" alt="" />
+							<!-- AI-related words overlay -->
+							<div class="word-cloud">
+								<span class="word">Artificial Intelligence</span>
+								<span class="word">Machine Learning</span>
+								<span class="word">Generative AI</span>
+								<span class="word">Natural Language Processing</span>
+								<span class="word">Deep Learning</span>
+								<span class="word">Python</span>
+								<span class="word">Neural Networks</span>
+								<span class="word">Chatbots</span>
+								<span class="word">Data Science</span>
+							</div>
+						</a>
+					</div>
+
+					<p>I'm passionate about artificial intelligence, with a focus on generative AI and Conversational AI solutions. I have 3+ years of experience working in this space and currently work at Tata Consultancy Services as a Generative AI Developer. My technical expertise spans across Python Flask, Google Cloud, and AI model development.</p>
+
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact" class="four">
+				<div class="container">
+
+					<header>
+						<h2>Contact</h2>
+					</header>
+
+					<p>If you're interested in working together or have any questions, feel free to reach out to me using the form below.</p>
+
+					<form id="contactForm">
+						<div class="row">
+							<div class="col-6 col-12-mobile">
+								<input type="text" id="name" name="name" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-mobile">
+								<input type="text" id="email" name="email" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<textarea id="message" name="message" placeholder="Message"></textarea>
+							</div>
+							<div class="col-12">
+								<input type="submit" value="Send Message" />
+							</div>
+						</div>
+					</form>
+					
+					<script>
+						document.getElementById('contactForm').addEventListener('submit', function(event) {
+							event.preventDefault(); // Prevent default form submission
+						
+							// Create a form object
+							const formData = {
+								name: document.getElementById('name').value,
+								email: document.getElementById('email').value,
+								message: document.getElementById('message').value
+							};
+						
+							// Send form data to the server using fetch
+							fetch('/submit', {
+								method: 'POST',
+								headers: {
+									'Content-Type': 'application/json'
+								},
+								body: JSON.stringify(formData)
+							})
+							.then(response => response.json())
+							.then(data => {
+								alert('Form submitted successfully');
+							})
+							.catch(error => {
+								console.error('Error:', error);
+							});
+						});
+					</script>
+
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>Thankyou 🙏				</li>
+				<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+			</ul>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/jquery.scrolly.min.js"></script>
+		<script src="static/js/jquery.scrollex.min.js"></script>
+		<script src="static/js/browser.min.js"></script>
+		<script src="static/js/breakpoints.min.js"></script>
+		<script src="static/js/util.js"></script>
+		<script src="static/js/main.js"></script>
+
+	</body>
+</html>
